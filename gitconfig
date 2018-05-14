@@ -1,0 +1,13 @@
+[user]
+	email = witem.artem@gmail.com
+	name = a.kuzmenko
+[diff]
+	tool = meld
+[merge]
+	tool = meld
+[core]
+	excludesfile = /home/user/.gitignore_global
+[push]
+	default = simple
+[init]
+	templatedir = ~/.git-templates

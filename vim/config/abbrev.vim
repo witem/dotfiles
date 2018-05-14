@@ -1,0 +1,5 @@
+"
+" WebVim Configuration : global abbreviations
+"
+
+
