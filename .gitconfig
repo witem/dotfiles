@@ -10,3 +10,6 @@
 	templatedir = ~/.git-templates
 [pull]
 	rebase = false
+[user]
+	name = witem
+	email = 1782530+witem@users.noreply.github.com
