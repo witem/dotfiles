@@ -1,0 +1,12 @@
+[diff]
+	tool = meld
+[merge]
+	tool = meld
+[core]
+	excludesfile = ~/.gitignore_global
+[push]
+	default = simple
+[init]
+	templatedir = ~/.git-templates
+[pull]
+	rebase = false

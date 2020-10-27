@@ -1,0 +1,5 @@
+.sync-config.cson
+.tern-project
+.vscode
+.*.swp
+.*.swo
