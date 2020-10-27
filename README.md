@@ -18,3 +18,4 @@
 
 * [SpaceVim](https://spacevim.org/quick-start-guide/) `curl -sLf https://spacevim.org/install.sh | bash`
 * `ln -svf dotfiles/SpaceVim.d ~/.SpaceVim.d`
+* `npm i -g tslint typescript-formatter eslint-cli js-beautify`
