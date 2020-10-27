@@ -17,4 +17,4 @@
 ## vim
 
 * [SpaceVim](https://spacevim.org/quick-start-guide/) `curl -sLf https://spacevim.org/install.sh | bash`
-* `ln -s dotfiles/SpaceVim.d ~/.SpaceVim.d`
+* `ln -svf dotfiles/SpaceVim.d ~/.SpaceVim.d`
