@@ -19,10 +19,9 @@
 
 ## vim
 
-- `pacin gvim`
-- [SpaceVim](https://spacevim.org/quick-start-guide/) `curl -sLf https://spacevim.org/install.sh | bash`
-- `ln -svf ~/dotfiles/SpaceVim.d ~/.SpaceVim.d`
-- `npm i -g tslint typescript-formatter eslint-cli js-beautify`
+- `pacin gvim nvim`
+- [NvChad](https://github.com/NvChad/NvChad)
+- `ln -svf ~/dotfiles/nvim ~/.config/nvim`
 
 ## kitty
 
