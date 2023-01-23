@@ -23,6 +23,12 @@
 - [NvChad](https://github.com/NvChad/NvChad)
 - `ln -svf ~/dotfiles/nvim ~/.config/nvim`
 
-## kitty
+## Terminal emulators
+
+### kitty
 
 - `ln -svf ~/dotfiles/kitty ~/.config/kitty`
+
+### Alacritty
+
+- `ln -svf ~/dotfiles/alacritty ~/.config/alacritty`
