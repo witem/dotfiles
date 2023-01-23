@@ -20,7 +20,7 @@
 ## vim
 
 - `pacin gvim nvim`
-- [NvChad](https://spacevim.org/quick-start-guide/)
+- [NvChad](https://github.com/NvChad/NvChad)
 - `ln -svf ~/dotfiles/nvim ~/.config/nvim`
 
 ## kitty

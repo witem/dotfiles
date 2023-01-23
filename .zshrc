@@ -88,7 +88,6 @@ plugins=(
   redis-cli
   sudo
   systemd
-  cargo
   rust
   colorize
   battery
@@ -115,7 +114,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='vim'
+  export EDITOR='nvim'
 fi
 
 # Compilation flags
@@ -129,7 +128,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export VISUAL="vim"
+export VISUAL="nvim"
 export TERM=screen-256color
 # export TERM=xterm-256color
 
