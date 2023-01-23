@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.gem/ruby/2.6.0/bin:$PATH:$HOME/.SpaceVim/bin
+export PATH=$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:$HOME/.gem/ruby/3.0.0/bin:$PATH:$HOME/.SpaceVim/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -81,21 +81,20 @@ plugins=(
   node
   npm
   nvm
-  emoji-clock
   docker
+  docker-compose
   encode64
   gpg-agent
   redis-cli
   sudo
   systemd
-  cargo
   rust
   colorize
   battery
   jsontools
-  # zsh-autosuggestions
-  web-search
-  # navi
+  rsync
+  ufw
+  zsh-interactive-cd
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -106,6 +105,9 @@ source $ZSH/oh-my-zsh.sh
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
+# dircolors
+test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -115,7 +117,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='vim'
+  export EDITOR='nvim'
 fi
 
 # Compilation flags
@@ -129,7 +131,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export VISUAL="vim"
+export VISUAL="nvim"
 export TERM=screen-256color
 # export TERM=xterm-256color
 
@@ -201,3 +203,13 @@ export NNN_BMS='d:~/Documents;p:~/projects/;D:~/Downloads/'
 export NNN_SSHFS_OPTS="sshfs -o follow_symlinks"        # make sshfs follow symlinks on the remote
 export NNN_CONTEXT_COLORS="2136"                        # use a different color for each context
 
+# pnpm
+export PNPM_HOME="/home/lnv/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+# bun completions
+[ -s "/home/lnv/.bun/_bun" ] && source "/home/lnv/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

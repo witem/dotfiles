@@ -11,5 +11,8 @@
 [pull]
 	rebase = false
 [user]
-	name = witem
-	email = 1782530+witem@users.noreply.github.com
+	name = Artem Kuzmenko
+	email = artemk@defiyield.app
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCv0HqaYssl1WN0tPeE68fxIOG9lHede6KqS5hAFEkOST8nhmA0sX+HnVMpU4JsifLGSEpF2OmqBKaHk2Ase6eraZP5kyOU7iQzBEygii5Rf7gFyMEbjj4zjw7YN4cywmuH+8YxkDkD+ahnw1LopIpFMsRJyE5yMHhoz9B8DQs7/xILUo9FoGwax3Y5rARmoZj36TEFFl6Sl+RZWIys9J0EZzhNieVTdn54pQ4OoQU8Pr8mE6orbIPDPw4DzlgC3vZguHESKcVrx2eoO5/2X3AIk2r8TQ2y6UZhDk1TqIdwkd6lLezO+kmztKnroHDsJmovO91nR9USRiKc59I8fGxfdLAjmzncCmFk3vGxonnZUwm/IaIOApkajLZXBu08jX5FUos+LL8Mif3D2lKsZim7W8uhBsHEnqSk4ttQZb0mt5L07w6qWBYrApIQxpK3RUj7pvCyBDcUPozWxTd+Jpvm8WCzj27dm0csO1k9VfclUzKwjIwNqhWupFwSK6teBos= artemk@defiyield.app
+[gpg]
+	format = ssh
