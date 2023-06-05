@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:$HOME/.gem/ruby/3.0.0/bin:$PATH:$HOME/.SpaceVim/bin
+export PATH=$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:$HOME/.gem/ruby/3.0.0/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -95,6 +95,7 @@ plugins=(
   rsync
   ufw
   zsh-interactive-cd
+  dnf
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -111,7 +112,7 @@ test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -120,17 +121,10 @@ else
   export EDITOR='nvim'
 fi
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 export VISUAL="nvim"
 export TERM=screen-256color
 # export TERM=xterm-256color
@@ -207,6 +201,7 @@ export NNN_CONTEXT_COLORS="2136"                        # use a different color 
 export PNPM_HOME="/home/lnv/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
 # bun completions
 [ -s "/home/lnv/.bun/_bun" ] && source "/home/lnv/.bun/_bun"
 
