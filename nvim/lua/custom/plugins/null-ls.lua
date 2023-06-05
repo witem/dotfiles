@@ -14,6 +14,9 @@ local sources = {
 
   -- Lua
   b.formatting.stylua,
+
+  -- GO
+  b.formatting.golangci_lint
 }
 
 null_ls.setup {
