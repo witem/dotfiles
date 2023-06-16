@@ -13,15 +13,21 @@ M.treesitter = {
 
 M.mason = {
   ensure_installed = {
-    -- lua stuff
-    "lua-language-server",
     "stylua",
-
-    -- web dev stuff
-    "css-lsp",
     "html-lsp",
     "typescript-language-server",
     "deno",
+    "bash-language-server",
+    "chrome-debug-adapter",
+    "css-lsp",
+    "dockerfile-language-server",
+    "eslint-lsp",
+    "eslint_d",
+    "lua-language-server",
+    "node-debug2-adapter",
+    "prettierd",
+    "shellcheck",
+    "yaml-language-server",
   },
 }
 
