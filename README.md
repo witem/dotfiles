@@ -7,6 +7,12 @@
 - `ln -s ~/dotfiles/.gitconfig .gitconfig`
 - `ln -s ~/dotfiles/.gitignore_global .gitignore_global`
 
+## Fonts
+
+ - [Nerd](https://github.com/ryanoasis/nerd-fonts)
+ - [Powerline](https://github.com/powerline/fonts)
+ - Jetbrains Mono
+
 ## tmux
 
 - [tmp](https://github.com/tmux-plugins/tpm) `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
