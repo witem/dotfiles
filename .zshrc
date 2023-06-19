@@ -198,12 +198,12 @@ export NNN_SSHFS_OPTS="sshfs -o follow_symlinks"        # make sshfs follow syml
 export NNN_CONTEXT_COLORS="2136"                        # use a different color for each context
 
 # pnpm
-export PNPM_HOME="/home/lnv/.local/share/pnpm"
+export PNPM_HOME="$HOME/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
 # bun completions
-[ -s "/home/lnv/.bun/_bun" ] && source "/home/lnv/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"

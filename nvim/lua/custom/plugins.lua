@@ -37,6 +37,19 @@ local plugins = {
     "nvim-tree/nvim-tree.lua",
     opts = overrides.nvimtree,
   },
+  {
+    "hrsh7th/nvim-cmp",
+    opts = function(_, opts)
+      local custom_changes = {
+        mapping = {
+          ['<C-l>'] = require("cmp").mapping(function(fallback)
+            vim.api.nvim_feedkeys(vim.fn['copilot#Accept'](vim.api.nvim_replace_termcodes('<Tab>', true, true, true)), 'n', true)
+          end),
+        },
+      }
+      return vim.tbl_deep_extend("error", opts, custom_changes)
+    end,
+  },
 
   -- Install a plugin
   {
@@ -48,6 +61,7 @@ local plugins = {
   },
   {
     "github/copilot.vim",
+    lazy = false,
   },
 
   -- To make a plugin not be loaded
