@@ -63,6 +63,13 @@ local plugins = {
     "github/copilot.vim",
     lazy = false,
   },
+  {
+    "mfussenegger/nvim-lint",
+    event = "VeryLazy",
+    config = function()
+      require "custom.configs.lint"
+    end
+  },
 
   -- To make a plugin not be loaded
   -- {
