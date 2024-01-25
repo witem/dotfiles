@@ -13,6 +13,7 @@ M.treesitter = {
 
 M.mason = {
   ensure_installed = {
+    "biome",
     "stylua",
     "html-lsp",
     "typescript-language-server",
