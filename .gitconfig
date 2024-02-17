@@ -6,7 +6,7 @@
 	conflictStyle = zdiff3
 [core]
 	excludesfile = ~/.gitignore_global
-	pager = less -F -X
+	pager = delta
 [push]
 	default = simple
 [init]
